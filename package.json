@@ -1,0 +1,8 @@
+{
+  "name": "playground",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "echo \"Error: no test specified\" && exit 1"
+  }
+}
