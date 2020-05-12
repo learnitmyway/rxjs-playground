@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "build": "cp public/index.html dist/index.html && npx webpack"
+    "build": "npx webpack"
   },
   "devDependencies": {
     "webpack": "^4.43.0",
