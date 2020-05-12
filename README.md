@@ -1,1 +1,1 @@
-# Node playground
+# rxjs playground
