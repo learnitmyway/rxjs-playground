@@ -2,7 +2,9 @@
   "name": "rxjs-playground",
   "version": "0.0.0",
   "private": true,
-  "scripts": {},
+  "scripts": {
+    "build": "cp public/index.html dist/index.html && npx webpack"
+  },
   "devDependencies": {
     "webpack": "^4.43.0",
     "webpack-cli": "^3.3.11"
