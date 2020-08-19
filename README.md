@@ -13,4 +13,4 @@ Note: Webpack is used as a bundler
 
 ### ourOwnObservable
 
-- click the page and view the event. Unsubscribes after 2 seconds
+- click the page and view the event

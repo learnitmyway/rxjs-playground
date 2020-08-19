@@ -21,5 +21,5 @@ export default function ourOwnObservable() {
     },
   })
 
-  setTimeout(unsubscribe, 2000)
+  setTimeout(unsubscribe, 5000)
 }
