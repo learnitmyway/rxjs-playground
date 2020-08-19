@@ -9,4 +9,8 @@ Note: Webpack is used as a bundler
 
 ### concatMap example
 
-- click the page
+- click the page to see it log every second for 4 seconds
+
+### ourOwnObservable
+
+- click the page and view the event. Unsubscribes after 2 seconds
