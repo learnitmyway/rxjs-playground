@@ -13,7 +13,21 @@ export default function ourOwnObservable() {
     })
   }
 
-  const click$ = Observable.fromEvent(document, 'click')
+  Observable.prototype.map = function (mapFn) {
+    const el = this
+    return new Observable((observer) => {
+      return el.subscribe({
+        next: (value) => observer.next(mapFn(value)),
+        error: (err) => observer.error(err),
+        complete: () => observer.complete(),
+      })
+    })
+  }
+
+  const click$ = Observable.fromEvent(document, 'click').map((event) => ({
+    ...event,
+    hello: 'world',
+  }))
 
   const unsubscribe = click$.subscribe({
     next: (event) => {
