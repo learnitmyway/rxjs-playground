@@ -1,5 +1,6 @@
 // https://ultimatecourses.com/blog/rxjs-observables-observers-operators
 
+// click the page and view the event
 export default function ourOwnObservable() {
   function Observable(subscribe) {
     this.subscribe = subscribe

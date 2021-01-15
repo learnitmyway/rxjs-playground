@@ -1,6 +1,7 @@
 import { fromEvent, interval } from 'rxjs'
 import { concatMap, take } from 'rxjs/operators'
 
+// click the page to see it log every second for 4 seconds
 // Results in the following:
 // (results are not concurrent)
 // For every click on the "document" it will emit values 0 to 3 spaced

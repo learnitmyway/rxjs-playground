@@ -7,10 +7,11 @@ Note: Webpack is used as a bundler
 - `npm start`
 - open with `open index.html` and open the console
 
-### concatMap example
+### adding a new example
 
-- click the page to see it log every second for 4 seconds
+- append to `index.js`
 
-### ourOwnObservable
+## running examples
 
-- click the page and view the event
+- view instructions in example file
+- uncomment example in `index.js` to run
