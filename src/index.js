@@ -1,9 +1,9 @@
 import concatMapExample from "./concatMapExample";
 import ourOwnObservable from "./ourOwnObservable";
 import mergeMap from "./mergeMap";
-import switchMapMapExample from "./switchMapMapExample";
+import switchMapExampleWithTwoValues from "./switchMapExampleWithTwoValues";
 
 // concatMapExample()
 // ourOwnObservable()
 // mergeMap();
-switchMapMapExample();
+switchMapExampleWithTwoValues();
